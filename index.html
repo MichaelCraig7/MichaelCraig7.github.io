@@ -5,50 +5,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
+    <style>
+        @font-face {
+            font-family: OCRA;
+            src: url('/OCRAEXT.TTF');
+        }
+    </style>
     <link rel="stylesheet" href="style.css">
     <title>Michael Craig - Portfolio</title>
 </head>
 
 <body>
-    <h1>UNDER CONSTRUCTION</h1>
-    <h1>Projects</h1>
-    <div>
-        <ul>
-            <div class='pOne'>
-                <li>
-                    Project 1:
+    <div class='header'>
+        <div>
+            Under Construction
+            <h1 class='titleName'>Michael Craig</h1>
+            <h5 class='titleDev'>{Full-Stack Developer}</h5>
+            <h3>Projects</h3>
+            <div >
+                <div>
+                    <h5>Obey Simon</h5>
+                </div>
+                <div >
                     <a href="https://github.com/MichaelCraig7/SimonGame">Info</a>
-                    <ul>
-                        <li>
-                            <a href="http://obeysimon.bitballoon.com/">Live Site</a>
-                        </li>
-                    </ul>
-                </li>
-            </div>
-            <div class='pTwo'>
-                <li>
-                    Project 2:
+                    |
+                    <a href="http://obeysimon.bitballoon.com/">Live Site</a>
+                </div>
+                <div >
+                    <h5>Suspicion Tracker</h5>
+                </div>
+                <div >
                     <a href="https://github.com/MichaelCraig7/suspicion-tracker">Info</a>
-                    <ul>
-                        <li>
-                            <a href="https://evening-mesa-87101.herokuapp.com/">Live Site</a>
-                        </li>
-                    </ul>
-                </li>
-            </div>
-            <div class='pThree'>
-                <li>
-                    Project 3:
+                    |
+                    <a href="https://evening-mesa-87101.herokuapp.com/">Live Site</a>
+                </div>
+                <div >
+                    <h5>Music List</h5>
+                </div>
+                <div>
                     <a href="https://github.com/MichaelCraig7/MusicList">Info</a>
-                    <ul>
-                        <li>
-                            <a href="https://p3musiclist.herokuapp.com/">Live Site</a>
-                        </li>
-                    </ul>
-                </li>
+                    |
+                    <a href="https://p3musiclist.herokuapp.com/">Live Site</a>
+                </div>
             </div>
-        </ul>
+        </div>
+        <div id="infiniteLoopAlternate">
+            <div class='wave waveTop firstWave'>one</div>
+            <div class="wave waveBottom firstWave">one</div>
+            <div class='wave waveTop secondWave'>two</div>
+            <div class="wave waveBottom secondWave">two</div>
+            <div class='wave waveTop thirdWave'>three</div>
+            <div class="wave waveBottom thirdWave">three</div>
+            <div class='wave waveTop fourthWave'>four</div>
+            <div class="wave waveBottom fourthWave">four</div>
+        </div>
+
     </div>
+    <!-- <div class='allProjects'>
+        <div class='pOneTitle' class='pTitle'>
+            <h5>Obey Simon</h5>
+        </div>
+        <div class='pOneExtra'>
+            <a href="https://github.com/MichaelCraig7/SimonGame">Info</a>
+            <a href="http://obeysimon.bitballoon.com/">Live Site</a>
+        </div>
+        <div class='pTwoTitle' class='pTitle'>
+            <h5>Suspicion Tracker</h5>
+        </div>
+        <div class='pTwoExtra'>
+            <a href="https://github.com/MichaelCraig7/suspicion-tracker">Info</a>
+            <a href="https://evening-mesa-87101.herokuapp.com/">Live Site</a>
+        </div>
+        <div class='pThreeTitle' class='pTitle'>
+            <h5>Music List</h5>
+        </div>
+        <div class='pThreeExtra'>
+            <a href="https://github.com/MichaelCraig7/MusicList">Info</a>
+            <a href="https://p3musiclist.herokuapp.com/">Live Site</a>
+        </div>
+    </div> -->
+    <script src="app.js"></script>
 </body>
 
 </html>
