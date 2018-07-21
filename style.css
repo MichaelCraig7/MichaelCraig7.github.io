@@ -1,51 +1,101 @@
 body {
-    height: 100%;
-    border: 1px solid black;
+    background: linear-gradient(#0A0809, #4DA7F8);
     font-family: 'arial';
-}
-
-h5 {
-    font-family: OCRA;
-}
-
-div {
-    /* border: 1px dotted black; */
-}
-
-a {
-    margin-top: 0;
-    text-decoration: none;
-}
-
-.titleName, .titleDev {
     margin: 0;
 }
 
-.header {
-    background: linear-gradient(rgb(5, 24, 63),rgb(143, 153, 243));
-    display: grid;
-    grid-template-rows: 100vh;
-    grid-template-columns: 100%;
-    grid-area: 1 / 1 / span 1 / span 1;
-    align-items: center;
-    text-align: center;
+/* div {
+    border: 2px dotted white;
+} */
+
+h1, h5, p {
+    margin: 0;
+}
+
+.titleName {
+    font-size: 5em
+}
+
+.titleDev {
+    font-family: OCRA;
+    font-size: 1.3em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
     color: ghostwhite;
-    font-size: 2em;
+}
+
+.title {
+    margin: 0;
+    display: grid;
+    grid-template: repeat(4, 25vh) / 100%;
+    text-align: center;
+    align-items: center;
+}
+
+.title div {
+    grid-area: 2 / 1 / span 1 / span 1;
+}
+
+.title p {
+    grid-area: 4 / 1 / span 1 / span 1;
+    font-size: 1.2em;
+}
+
+.projectList {
+    display: grid;
+    grid-template: 98vh 98vh 98vh / 100%;
+}
+
+.p1, .p2, .p3 {
+    text-align: center;
+}
+
+.p1 {
+    grid-area: 1 / 1 / span 1 / span 1;
+}
+
+.p2 {
+    grid-area: 2 / 1 / span 1 / span 1;
+}
+
+.p3 {
+    grid-area: 3 / 1 / span 1 / span 1;
+}
+
+.p1Inner, .p2Inner, .p3Inner {
+    display: grid;
+    grid-template: 20vh 30vh 25vh 25vh / 100%;
+}
+
+.projectList img {
+    grid-area: 2 / 1 / span 1 / span 1;
+    height: 14em;
+    margin: 0 auto;
+}
+
+.p1Title h5, .p2Title h5, .p3Title h5 {
+    font-size: 6em;
+}
+
+.p1Title, .p2Title, .p3Title {
+    grid-area: 3 / 1 / span 1 / span 1;
+}
+
+.p1Buttons, .p2Buttons, .p3Buttons {
+    grid-area: 4 / 1 / span 1 / span 1;
 }
 
 #infiniteLoopAlternate {
     display: grid;
-    grid-template: 10vh / 100%;
+    grid-template: 12vh / 100%;
 }
 
 .wave {
-    grid-area: 1 / 1 / span 1 / span 1;
-    background-color: #A8D2D4
-}
-
-.allProjects {
-    background: linear-gradient(#A8D2D4,#499C82);
-    display: grid;
-    grid-template-columns: 20% 80%;
-    grid-template-rows: repeat(3, 52.5vh);
+    grid-area: 1 / 1 / span 1 / span 4;
+    background-color:#264968
 }

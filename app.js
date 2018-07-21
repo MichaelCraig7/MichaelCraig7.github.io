@@ -29,5 +29,5 @@ var infiniteLoopAlternate4 = anime({
   direction: 'alternate',
   loop: true,
   duration: 4000,
-  delay: 3500
+  delay: 4500
 });

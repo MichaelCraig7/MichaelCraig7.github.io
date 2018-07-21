@@ -9,83 +9,80 @@
     <style>
         @font-face {
             font-family: OCRA;
-            src: url('/OCRAEXT.TTF');
+            src: url('/fonts/OCRAEXT.TTF');
         }
     </style>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
     <title>Michael Craig - Portfolio</title>
 </head>
 
 <body>
-    <div class='header'>
-        <div>
-            Under Construction
-            <h1 class='titleName'>Michael Craig</h1>
-            <h5 class='titleDev'>{Full-Stack Developer}</h5>
-            <h3>Projects</h3>
-            <div >
-                <div>
-                    <h5>Obey Simon</h5>
+    <div class='wrapper'>
+        
+        <div class='title'>
+            <div>
+                <p>UNDER CONSTRUCTION</p>
+                <h1 class='titleName'>Michael Craig</h1>
+                <h5 class='titleDev'>{Full-Stack Developer}</h5>
+            </div>
+            <p>Projects</p>
+        </div>
+
+        <div class='projectList'>
+            <div class='p1'>
+                <div class=p1Inner>
+                    <div class='p1Title'>
+                        <h5>Obey Simon</h5>
+                    </div>
+                    <div class='p1Buttons'>
+                        <a class="waves-effect waves-light btn" href="https://github.com/MichaelCraig7/SimonGame">Info</a>
+                        <a class="waves-effect waves-light btn" href="http://obeysimon.bitballoon.com/">Live Site</a>
+                    </div>
+                    <img src="/project_images/p1_img.png" alt="Project 1 Image">
                 </div>
-                <div >
-                    <a href="https://github.com/MichaelCraig7/SimonGame">Info</a>
-                    |
-                    <a href="http://obeysimon.bitballoon.com/">Live Site</a>
+            </div>
+            <div class='p2'>
+                <div class='p2Inner'>
+                    <div class='p2Title'>
+                        <h5>Suspicion Tracker</h5>
+                    </div>
+                    <div class='p2Buttons'>
+                        <a class="waves-effect waves-light btn" href="https://github.com/MichaelCraig7/suspicion-tracker">Info</a>
+                        <a class="waves-effect waves-light btn" href="https://evening-mesa-87101.herokuapp.com/">Live Site</a>
+                    </div>
+                    <img src="/project_images/p2_img.png" alt="Project 2 Image">
                 </div>
-                <div >
-                    <h5>Suspicion Tracker</h5>
-                </div>
-                <div >
-                    <a href="https://github.com/MichaelCraig7/suspicion-tracker">Info</a>
-                    |
-                    <a href="https://evening-mesa-87101.herokuapp.com/">Live Site</a>
-                </div>
-                <div >
-                    <h5>Music List</h5>
-                </div>
-                <div>
-                    <a href="https://github.com/MichaelCraig7/MusicList">Info</a>
-                    |
-                    <a href="https://p3musiclist.herokuapp.com/">Live Site</a>
+            </div>
+            <div class='p3'>
+                <div class='p3Inner'>
+                    <div class='p3Title'>
+                        <h5>Music List</h5>
+                    </div>
+                    <div class='p3Buttons'>
+                        <a class="waves-effect waves-light btn" href="https://github.com/MichaelCraig7/MusicList">Info</a>
+                        <a class="waves-effect waves-light btn" href="https://p3musiclist.herokuapp.com/">Live Site</a>
+                    </div>
+                    <img src="/project_images/p3_img.png" alt="Project 3 Image">
                 </div>
             </div>
         </div>
         <div id="infiniteLoopAlternate">
-            <div class='wave waveTop firstWave'>one</div>
-            <div class="wave waveBottom firstWave">one</div>
-            <div class='wave waveTop secondWave'>two</div>
-            <div class="wave waveBottom secondWave">two</div>
-            <div class='wave waveTop thirdWave'>three</div>
-            <div class="wave waveBottom thirdWave">three</div>
-            <div class='wave waveTop fourthWave'>four</div>
-            <div class="wave waveBottom fourthWave">four</div>
+            <div class='wave waveTop firstWave'></div>
+            <div class="wave waveBottom firstWave"></div>
+            <div class='wave waveTop secondWave'></div>
+            <div class="wave waveBottom secondWave"></div>
+            <div class='wave waveTop thirdWave'></div>
+            <div class="wave waveBottom thirdWave"></div>
+            <div class='wave waveTop fourthWave'></div>
+            <div class="wave waveBottom fourthWave"></div>
         </div>
 
+
     </div>
-    <!-- <div class='allProjects'>
-        <div class='pOneTitle' class='pTitle'>
-            <h5>Obey Simon</h5>
-        </div>
-        <div class='pOneExtra'>
-            <a href="https://github.com/MichaelCraig7/SimonGame">Info</a>
-            <a href="http://obeysimon.bitballoon.com/">Live Site</a>
-        </div>
-        <div class='pTwoTitle' class='pTitle'>
-            <h5>Suspicion Tracker</h5>
-        </div>
-        <div class='pTwoExtra'>
-            <a href="https://github.com/MichaelCraig7/suspicion-tracker">Info</a>
-            <a href="https://evening-mesa-87101.herokuapp.com/">Live Site</a>
-        </div>
-        <div class='pThreeTitle' class='pTitle'>
-            <h5>Music List</h5>
-        </div>
-        <div class='pThreeExtra'>
-            <a href="https://github.com/MichaelCraig7/MusicList">Info</a>
-            <a href="https://p3musiclist.herokuapp.com/">Live Site</a>
-        </div>
-    </div> -->
+
     <script src="app.js"></script>
+
 </body>
 
 </html>
