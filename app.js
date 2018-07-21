@@ -1,33 +1,34 @@
 var infiniteLoopAlternate = anime({
   targets: '#infiniteLoopAlternate .firstWave',
-  translateY: -50,
-  direction: 'reverse',
-  duration: 4000,
+  translateY: -80,
+  loop: true,
+  direction: 'alternate',
+  duration: 6000,
+  delay: 5000
 });
 
 var infiniteLoopAlternate2 = anime({
   targets: '#infiniteLoopAlternate .secondWave',
-  translateY: -55,
+  translateY: -65,
   direction: 'alternate',
   loop: true,
   duration: 4000,
-  delay: 1500
+  delay: 3500
 });
 
 var infiniteLoopAlternate3 = anime({
   targets: '#infiniteLoopAlternate .thirdWave',
-  translateY: -75,
+  translateY: -45,
   direction: 'alternate',
   loop: true,
-  duration: 4000,
-  delay: 2500
+  duration: 3500,
+  delay: 2000
 });
 
 var infiniteLoopAlternate4 = anime({
   targets: '#infiniteLoopAlternate .fourthWave',
-  translateY: -65,
+  translateY: 0,
   direction: 'alternate',
-  loop: true,
   duration: 4000,
   delay: 4500
 });
