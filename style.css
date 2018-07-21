@@ -11,10 +11,6 @@ body {
     margin-bottom: 0;
 }
 
-/* div {
-    border: 2px dotted white;
-} */
-
 h1, h5, p {
     margin: 0;
 }
@@ -91,7 +87,8 @@ a {
 }
 
 .p1Title h5, .p2Title h5, .p3Title h5 {
-    font-size: 5em;
+    margin: 0;
+    font-size: 4em;
 }
 
 .p1Title, .p2Title, .p3Title {
@@ -118,7 +115,6 @@ a {
     display: grid;
     grid-template: 8vh / 100%;
 }
-
 .wave {
     grid-area: 1 / 1 / span 1 / span 4;
 }
