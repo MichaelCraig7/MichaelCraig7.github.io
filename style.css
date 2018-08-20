@@ -53,10 +53,10 @@ a {
 
 .projectList {
     display: grid;
-    grid-template: 98vh 98vh 98vh / 100%;
+    grid-template: 98vh 98vh 98vh 98vh / 100%;
 }
 
-.p1, .p2, .p3 {
+.p1, .p2, .p3, .p4 {
     text-align: center;
 }
 
@@ -72,7 +72,11 @@ a {
     grid-area: 3 / 1 / span 1 / span 1;
 }
 
-.p1Inner, .p2Inner, .p3Inner {
+.p4 {
+    grid-area: 4 / 1 / span 1 / span 1;
+}
+
+.p1Inner, .p2Inner, .p3Inner, .p4Inner{
     display: grid;
     grid-template: 20vh 30vh 25vh 25vh / 100%;
 }
@@ -86,22 +90,26 @@ a {
     border-radius: 4px;
 }
 
-.p1Title h5, .p2Title h5, .p3Title h5 {
+.p1Title h5, .p2Title h5, .p3Title h5, .p4Title h5 {
     margin: 0;
     font-size: 4em;
 }
 
-.p1Title, .p2Title, .p3Title {
+.p1Title p, .p2Title p, .p3Title p, .p4Title p {
+    margin: 2vh;
+}
+
+.p1Title, .p2Title, .p3Title, .p4Title {
     grid-area: 3 / 1 / span 1 / span 1;
 }
 
-.p1Buttons, .p2Buttons, .p3Buttons {
+.p1Buttons, .p2Buttons, .p3Buttons, .p4Buttons {
     grid-area: 4 / 1 / span 1 / span 1;
 }
 
-/* .btn {
-    background-color: red;
-} */
+.btn {
+    background-color: rgb(102, 177, 196);
+}
 
 .pBtn1 {
     margin-right: 1vw
